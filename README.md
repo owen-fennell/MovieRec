@@ -156,7 +156,7 @@ json
 
 - Allow users to rate movies directly in the app and see recommendations update in real time
 - Add user authentication so individuals can build their own rating history
-- Replace genre vectors with TF-IDF on plot descriptions for richer content-based profiles
+- Improve UI by making it look more appealing
 - Make the hybrid alpha weight adjustable from the frontend UI
 - Deploy the full stack — Flask on Railway or Render, React on Vercel
 
