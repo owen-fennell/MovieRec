@@ -133,12 +133,11 @@ All endpoints are served at `http://localhost:5000`
 Optional query parameter: `?n=10` controls the number of results returned.
 
 **Example request**
-\```
-GET /api/recommend/hybrid/1?n=5
-\```
+```
+GET /api/recommend/hybrid/1?n=5\```
 
 **Example response**
-\```json
+```json
 {
   "userId": 1,
   "engine": "hybrid",
@@ -148,7 +147,7 @@ GET /api/recommend/hybrid/1?n=5
     { "movieId": 50,  "title": "Star Wars (1977)",        "score": 0.9187 }
   ]
 }
-\```
+```
 
 ## Future Improvements
 
