@@ -62,7 +62,6 @@ class CollaborativeEngine(BaseRecommender):
             if neighbor_ratings.empty:
                 continue
 
-            # Weight each neighbor's rating by their similarity to our user
             weights = similar_users[neighbor_ratings.index]
 
             # Weighted average = sum(similarity * rating) / sum(similarities)
@@ -71,7 +70,7 @@ class CollaborativeEngine(BaseRecommender):
         return scores
     
     def recommend(self, user_id, n=10):
-        self.ensure_data_loaded()  # from BaseRecommender
+        self.ensure_data_loaded() 
 
         # Check this user exists in our matrix
         if user_id not in self.user_item_matrix.index:

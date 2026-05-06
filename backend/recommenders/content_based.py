@@ -10,15 +10,12 @@ genre_cols = [
     'Sci-Fi', 'Thriller', 'War', 'Western'
 ] 
 
-# Class created from inherited BaseRecommender
 class ContentBasedEngine(BaseRecommender):
 
-    # Initialize the content-based recommender
     def __init__(self):
         super().__init__()
         self.movie_vectors = None
 
-    # Load the movie vectors
     def load(self):
         self.movie_vectors = self._build_movie_vectors()
 

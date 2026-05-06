@@ -48,8 +48,8 @@ class HybridEngine(BaseRecommender):
 
         return blended
 
-    def recommend(self, user_id, n=10):  # ← now indented inside the class
-        self.ensure_data_loaded()        # ← fixed to match base.py
+    def recommend(self, user_id, n=10):  
+        self.ensure_data_loaded()        
 
         cf_recs  = self.cf_engine.recommend(user_id, n=100)
         cbf_recs = self.cbf_engine.recommend(user_id, n=100)

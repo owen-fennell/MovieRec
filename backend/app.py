@@ -47,7 +47,12 @@ def health():
 
 @app.route('/api/users', methods=['GET'])
 def get_users():
-    ratings = pd.read_csv('data/ratings.csv')
+    ratings = pd.read_csv(
+        './data/ml-100k/u.data',
+        sep='\t',
+        header=None,
+        names=['userId', 'movieId', 'rating', 'timestamp']
+    )
     user_ids = sorted(ratings['userId'].unique().tolist())
     return jsonify({
         'count': len(user_ids),
