@@ -31,7 +31,7 @@ This project demonstrates three recommendation algorithms built from scratch —
 
 ## Project Structure
 
-\```
+```
 recommendation-project/
 ├── backend/
 │   ├── app.py                  # Flask entry point and API routes
@@ -55,7 +55,7 @@ recommendation-project/
 │           ├── Home.jsx
 │           ├── Recommend.jsx
 │           └── Compare.jsx
-\```
+```
 
 ## Running Locally
 
