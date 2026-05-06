@@ -134,7 +134,7 @@ Optional query parameter: `?n=10` controls the number of results returned.
 
 **Example request**
 ```
-GET /api/recommend/hybrid/1?n=5\```
+GET /api/recommend/hybrid/1?n=5```
 
 **Example response**
 ```json
