@@ -65,7 +65,7 @@ recommendation-project/
 - MovieLens 100K dataset (download from https://grouplens.org/datasets/movielens/100k/)
 
 # Backend Setup
-\```bash
+
 ### Clone the repository
 git clone https://github.com/yourusername/recommendation-project.git
 cd recommendation-project/backend
@@ -84,11 +84,10 @@ pip install -r requirements.txt
 ### Start the Flask server
 python app.py
 ### Server runs at http://localhost:5000
-\```
+
 
 # Frontend Setup
-\```bash
-cd recommendation-project/frontend
+
 
 ### Install dependencies
 npm install
@@ -96,7 +95,7 @@ npm install
 ### Start the development server
 npm run dev
 ### App runs at http://localhost:5173
-\```
+
 
 ## How It Works
 
