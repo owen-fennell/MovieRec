@@ -70,32 +70,32 @@ recommendation-project/
 git clone https://github.com/yourusername/recommendation-project.git
 cd recommendation-project/backend
 
-# Create and activate a virtual environment
+#### Create and activate a virtual environment
 python -m venv venv
 venv\Scripts\activate        # Windows
 source venv/bin/activate     # Mac/Linux
 
-# Install dependencies
+#### Install dependencies
 pip install -r requirements.txt
 
-# Place the MovieLens 100K dataset in the data folder
-# Your structure should look like: backend/data/ml-100k/u.data and u.item
+#### Place the MovieLens 100K dataset in the data folder
+#### Your structure should look like: backend/data/ml-100k/u.data and u.item
 
-# Start the Flask server
+#### Start the Flask server
 python app.py
-# Server runs at http://localhost:5000
+#### Server runs at http://localhost:5000
 \```
 
 ### Frontend Setup
 \```bash
 cd recommendation-project/frontend
 
-# Install dependencies
+#### Install dependencies
 npm install
 
-# Start the development server
+#### Start the development server
 npm run dev
-# App runs at http://localhost:5173
+#### App runs at http://localhost:5173
 \```
 
 ## How It Works
