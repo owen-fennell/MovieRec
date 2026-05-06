@@ -62,7 +62,6 @@ recommendation-project/
 ### Prerequisites
 - Python 3.8 or higher
 - Node.js 16 or higher
-- MovieLens 100K dataset (download from https://grouplens.org/datasets/movielens/100k/)
 
 ### Backend Setup
 ```bash
