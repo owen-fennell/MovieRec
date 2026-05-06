@@ -87,7 +87,7 @@ python app.py
 
 
 # Frontend Setup
-
+```bash
 
 ### Install dependencies
 npm install
@@ -95,7 +95,7 @@ npm install
 ### Start the development server
 npm run dev
 ### App runs at http://localhost:5173
-
+```
 
 ## How It Works
 
@@ -134,10 +134,12 @@ Optional query parameter: `?n=10` controls the number of results returned.
 
 **Example request**
 ```
-GET /api/recommend/hybrid/1?n=5```
+GET /api/recommend/hybrid/1?n=5
+```
 
 **Example response**
-```json
+```
+json
 {
   "userId": 1,
   "engine": "hybrid",
